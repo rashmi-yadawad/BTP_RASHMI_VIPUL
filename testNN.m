@@ -1,4 +1,4 @@
-function personName = test(fileName)
+function personName = testNN(fileName)
     global net;
     global classNames;
     

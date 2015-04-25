@@ -1,10 +1,10 @@
-function H1 = lbp_raw_2(file)
-      I=imread(file);
+      clc;
+      I=imread('F:\BTP\16\example\14-4lFiqoKYSe.jpg');
 %       y=y(:);
       
       mapping=getmapping(8,'u2'); 
       H1=lbp(I,1,8,mapping,'h'); %LBP histogram in (8,1) neighborhood
-      %stem(H1);                           %using uniform patterns
+      stem(H1);                           %using uniform patterns
 %       subplot(2,1,1),stem(H1);
 %       Matrix=zeros(200,10304);
 %       temp=zeros(112,92);

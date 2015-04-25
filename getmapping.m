@@ -15,8 +15,7 @@
 %
 
 function mapping = getmapping(samples,mappingtype)
-% Version 0.1
-% Authors: Marko Heikkil? and Timo Ahonen
+
 
   
 mapping = 0:2^samples-1;

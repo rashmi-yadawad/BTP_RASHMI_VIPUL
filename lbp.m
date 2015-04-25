@@ -1,13 +1,6 @@
 function result = lbp(varargin) % image,radius,neighbors,mapping,mode)
-% Version 0.3.2
-% Authors: Marko Heikkil? and Timo Ahonen
 
-% Changelog
-% Version 0.3.2: A bug fix to enable using mappings together with a
-% predefined spoints array
-% Version 0.3.1: Changed MAPPING input to be a struct containing the mapping
-% table and the number of bins to make the function run faster with high number
-% of sampling points. Lauge Sorensen is acknowledged for spotting this problem.
+
 
 
 % Check number of input arguments.

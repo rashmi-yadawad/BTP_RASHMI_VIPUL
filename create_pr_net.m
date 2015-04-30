@@ -19,7 +19,7 @@ function net = create_pr_net(inputs,targets)
 %    net = create_pr_net(X,Y);
 
 % Create Network
-numHiddenNeurons = 22;  % Adjust as desired
+numHiddenNeurons = 20;  % Adjust as desired
 net = newpr(inputs,targets,numHiddenNeurons);
 net.divideParam.trainRatio = 80/100;  % Adjust as desired
 net.divideParam.valRatio = 10/100;  % Adjust as desired

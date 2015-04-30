@@ -22,7 +22,8 @@ function personName = testNN(fileName)
     end
     if(numHigh == 1)
         personName = strtrim(classNames(highIndex,:));
-        disp(strcat('Match found: ', personName));
+        disp('Match found:');
+        personName
     else
         personName = 'ambiguous';
         disp('Sorry, no match found');

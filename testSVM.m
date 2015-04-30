@@ -16,6 +16,8 @@ function personName = testSVM(fileName)
     end
     if(foundIndex ~= 0)
         personName = strtrim(classNames(foundIndex,:));
+        disp(strcat('Match found: ', personName));
     else
         personName = 'ambiguous';
+        disp('Sorry, no match found');
     end
